@@ -10,3 +10,18 @@ def book_appointment(appointments):
         if service.lower() == 'done':
             break
         services.append(service)
+
+ while True:
+        service = input("Enter a service (or type 'done' to finish): ")
+        if service.lower() == 'done':
+            break
+        services.append(service)
+    
+    appointment = {
+        'year': car_year,
+        'make': car_make,
+        'model': car_model,
+        'services': services
+    }
+    appointments.append(appointment)
+    print(f"Appointment booked: {car_year} {car_make} {car_model} - Services: {', '.join(services)}")
