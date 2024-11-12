@@ -1,3 +1,14 @@
+# cloned code on local file
+(base) michaelcato@Michaels-Air ~ % git clone https://github.com/AnnaJustynaK/Car-Booking-System-In-Python-With-Source-Code.git
+Cloning into 'Car-Booking-System-In-Python-With-Source-Code'...
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (13/13), done.
+remote: Total 15 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (15/15), 7.11 KiB | 7.11 MiB/s, done.
+Resolving deltas: 100% (3/3), done.
+(base) michaelcato@Michaels-Air ~ % 
+
 # import modules
 from tkinter import *
 import sqlite3
