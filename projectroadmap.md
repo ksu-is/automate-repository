@@ -4,4 +4,16 @@
 - [x] GitHub account linked to KSU organization
 - [x] Repository created for project "AutoMate", solo project
 - [x] Updated readme file and committed changes
-- [] Explore existing python code of choice and submit findings to projectroadmap file
+- [x] Explore existing python code of choice and submit findings to projectroadmap file
+- ### *Sprint 2*
+- [ ] Begin building code for Python aspect of AutoMate
+- [ ] Add revisions to code in the form of detailed commits
+- [ ] Draw strings of pre-existing code from inspiration souces to add to AutoMate
+- [ ] Brainstorm the interface for the Flask website and it's visual theme
+- [ ] Build the Flask extension and integrate Python code
+- [ ] Test usability and debug
+- [ ] Submit changes in the form of multiple commits
+- ### *Sprint 3*
+- [ ] Create PPT slide to demonstrate the key features of the project and adhere to guidelines in rubric
+- [ ] Ensure that both the website and Python code seamlessly integrate with the link attached to the powerpoint
+- [ ] Review project code and see if ambition for the project scale needs to be expanded
