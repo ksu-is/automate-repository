@@ -1,0 +1,12 @@
+def book_appointment(appointments):
+    print("Booking a new appointment.")
+    car_year = input("Enter the car's year: ")
+    car_make = input("Enter the car's make: ")
+    car_model = input("Enter the car's model: ")
+    services = []
+    
+    while True:
+        service = input("Enter a service (or type 'done' to finish): ")
+        if service.lower() == 'done':
+            break
+        services.append(service)
