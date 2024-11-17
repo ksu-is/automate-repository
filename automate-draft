@@ -28,3 +28,75 @@ def appointment_booking(appointments):
     appointments.append(appointment)
     print(f"Great! New appointment booked for {vehicle_year} {vehicle_make} {vehicle_model} ! The services included are: {', '.join(service_items)}")
 
+def add_new(appointments):
+    vehicle_year = input("Enter the car's year: ")
+    vehicle_make = input("Enter the car's make: ")
+    vehicle_model = input("Enter the car's model: ")
+    
+    for appointment in appointments:
+        if (appointment['year'] == car_year and
+            appointment['make'] == car_make and
+            appointment['model'] == car_model):
+            service = input("Enter the service to add: ")
+            if service not in appointment['services']:
+                appointment['services'].append(service)
+                print(f"Service '{service}' added to appointment for {car_year} {car_make} {car_model}")
+            else:
+                print(f"Service '{service}' already exists for this appointment.")
+            return
+    
+    print("Appointment not found!")
+
+def delete_appointment(appointments):
+    car_year = input("Enter the car's year: ")
+    car_make = input("Enter the car's make: ")
+    car_model = input("Enter the car's model: ")
+    
+    for appointment in appointments:
+        if (appointment['year'] == car_year and
+            appointment['make'] == car_make and
+            appointment['model'] == car_model):
+            appointments.remove(appointment)
+            print(f"Appointment for {car_year} {car_make} {car_model} deleted.")
+            return
+    
+    print("Appointment not found!")
+
+def show_appointments(appointments):
+    if appointments:
+        print("\nAppointments:")
+        for appointment in appointments:
+            print(f"{appointment['year']} {appointment['make']} {appointment['model']} - Services: {', '.join(appointment['services'])}")
+    else:
+        print("No appointments scheduled.")
+
+def main():
+    appointments = []
+    
+    while True:
+        print("\nAutoMate System:")
+        print("1. Book an Appointment")
+        print("2. Add a Service to an Appointment")
+        print("3. Delete an Appointment")
+        print("4. Show All Appointments")
+        print("5. Exit")
+        
+        choice = input("Choose an option (1-5): ")
+        
+        if choice == '1':
+            book_appointment(appointments)
+        elif choice == '2':
+            add_service(appointments)
+        elif choice == '3':
+            delete_appointment(appointments)
+        elif choice == '4':
+            show_appointments(appointments)
+        elif choice == '5':
+            print("Exiting the system. Goodbye!")
+            break
+        else:
+            print("Invalid option. Please try again.")
+
+if __name__ == "__main__":
+    main()
+
