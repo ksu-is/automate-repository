@@ -12,12 +12,6 @@ def appointment_booking(appointments):
         if service_items.lower() == 'done':
             break
         service.append(service_items)
-
- while True:
-        service = input("Enter another service, or enter 'done' to complete: ")
-        if service.lower() == 'done':
-            break
-        service_items.append(service)
     
     appointment = {
         'year': vehicle_year,
