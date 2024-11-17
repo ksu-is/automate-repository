@@ -21,3 +21,8 @@ appointment = {
     }
     appointments.append(appointment)
     print(f"Great! New appointment booked for {vehicle_year} {vehicle_make} {vehicle_model} ! The services included are: {', '.join(service_items)}")
+def add_new(appointments):
+    vehicle_year = input("Enter the car's year: ")
+    vehicle_make = input("Enter the car's make: ")
+    vehicle_model = input("Enter the car's model: ")
+    
