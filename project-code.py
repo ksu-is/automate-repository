@@ -29,4 +29,18 @@ def add_new(appointments):
     vehicle_year = input("Enter the car's year: ")
     vehicle_make = input("Enter the car's make: ")
     vehicle_model = input("Enter the car's model: ")
+# Commit 5 below 
+    for appointment in appointments:
+        if (appointment['year'] == car_year and
+            appointment['make'] == car_make and
+            appointment['model'] == car_model):
+            service = input("Enter the service to add: ")
+            if service not in appointment['services']:
+                appointment['services'].append(service)
+                print(f"Service '{service}' added to appointment for {car_year} {car_make} {car_model}")
+            else:
+                print(f"Service '{service}' already exists for this appointment.")
+            return
+    
+    print("Appointment not found!")
     
