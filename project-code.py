@@ -13,3 +13,11 @@ while True:
         if service_items.lower() == 'done':
             break
         service.append(service_items)
+appointment = {
+        'year': vehicle_year,
+        'make': vehicle_make,
+        'model': vehicle_model,
+        'services': service_items
+    }
+    appointments.append(appointment)
+    print(f"Great! New appointment booked for {vehicle_year} {vehicle_make} {vehicle_model} ! The services included are: {', '.join(service_items)}")
