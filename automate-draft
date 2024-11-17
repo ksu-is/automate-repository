@@ -1,27 +1,28 @@
-def book_appointment(appointments):
-    print("Booking a new appointment.")
-    car_year = input("Enter the car's year: ")
-    car_make = input("Enter the car's make: ")
-    car_model = input("Enter the car's model: ")
-    services = []
+def appointment_booking(appointments):
+    print("Booking a new appointment?")
+    vehicle_year = input("Enter vehicle year: ")
+    vehicle_make = input("Enter vehicle make: ")
+    vehicle_model = input("Enter vehicle model: ")
+    service = []
     
     while True:
-        service = input("Enter a service (or type 'done' to finish): ")
-        if service.lower() == 'done':
+        service_items = input("Please enter requested service, or enter 'done' to complete: ")
+        if service_items.lower() == 'done':
             break
-        services.append(service)
+        service.append(service_items)
 
  while True:
-        service = input("Enter a service (or type 'done' to finish): ")
+        service = input("Enter another service, or enter 'done' to complete: ")
         if service.lower() == 'done':
             break
-        services.append(service)
+        service_items.append(service)
     
     appointment = {
-        'year': car_year,
-        'make': car_make,
-        'model': car_model,
-        'services': services
+        'year': vehicle_year,
+        'make': vehicle_make,
+        'model': vehicle_model,
+        'services': service_items
     }
     appointments.append(appointment)
-    print(f"Appointment booked: {car_year} {car_make} {car_model} - Services: {', '.join(services)}")
+    print(f"Great! New appointment booked for {vehicle_year} {vehicle_make} {vehicle_model} ! The services included are: {', '.join(service_items)}")
+
