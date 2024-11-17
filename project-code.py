@@ -8,3 +8,8 @@ def appointment_booking(appointments):
     vehicle_make = input("Enter vehicle make: ")
     vehicle_model = input("Enter vehicle model: ")
     service = []
+while True:
+        service_items = input("Please enter requested service, or enter 'done' to complete: ")
+        if service_items.lower() == 'done':
+            break
+        service.append(service_items)
