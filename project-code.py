@@ -21,26 +21,26 @@ appointment = {
         'make': vehicle_make,
         'model': vehicle_model,
         'services': service_items
-    }
+        }
     appointments.append(appointment)
-    print(f"Great! New appointment booked for {vehicle_year} {vehicle_make} {vehicle_model} ! The services included are: {', '.join(service_items)}")
+    print(f"Great! New appointment booked for {vehicle_year} {vehicle_make} {vehicle_model} ! The services included are: {','join.(service_items)}")
 #Commit 4 below
 def add_new(appointments):
-    vehicle_year = input("Enter the car's year: ")
-    vehicle_make = input("Enter the car's make: ")
-    vehicle_model = input("Enter the car's model: ")
+    vehicle_year = input("Vehicle year?")
+    vehicle_make = input("Vehicle make?")
+    vehicle_model = input("Vehicle model?")
 # Commit 5 below 
     for appointment in appointments:
-        if (appointment['year'] == car_year and
-            appointment['make'] == car_make and
-            appointment['model'] == car_model):
+        if (appointment['year'] == vehicle_year and
+            appointment['make'] == vehicle_make and
+            appointment['model'] == vehicle_model):
             service = input("Enter the service to add: ")
-            if service not in appointment['services']:
+            if service not in appointment['service']:
                 appointment['services'].append(service)
-                print(f"Service '{service}' added to appointment for {car_year} {car_make} {car_model}")
+                print(f"{service} applied!")
             else:
-                print(f"Service '{service}' already exists for this appointment.")
+                print(f"{service} has already been added!")
             return
     
-    print("Appointment not found!")
+    print("No appointment to show!")
     
