@@ -6,14 +6,14 @@
 - [x] Updated readme file and committed changes
 - [x] Explore existing python code of choice and submit findings to projectroadmap file
 - ### *Sprint 2*
-- [ ] Begin building code for Python aspect of AutoMate
-- [ ] Add revisions to code in the form of detailed commits
-- [ ] Draw strings of pre-existing code from inspiration souces to add to AutoMate
-- [ ] Brainstorm the interface for the Flask website and it's visual theme
-- [ ] Build the Flask extension and integrate Python code
-- [ ] Test usability and debug
-- [ ] Submit changes in the form of multiple commits
+- [x] Begin building code for Python aspect of AutoMate (flask portion likely no longer being pursued)
+- [x] Add revisions to code in the form of detailed commits
+- [x] Analyze and derive strings of pre-existing code from inspiration sources to add to AutoMate
+- [x] Test usability so far and debug
+- [x] Submit changes in the form of multiple commits
 - ### *Sprint 3*
+- [ ] Continue working on code and determine if project is ambitious enough by completion time.
+- [ ] Brainstorm and add features to existing code if project requires more fleshed out features; oversights.  
 - [ ] Create PPT slide to demonstrate the key features of the project and adhere to guidelines in rubric
-- [ ] Ensure that both the website and Python code seamlessly integrate with the link attached to the powerpoint
+- [ ] Ensure that code works seamlessly integrate with the link attached to the powerpoint
 - [ ] Review project code and see if ambition for the project scale needs to be expanded
