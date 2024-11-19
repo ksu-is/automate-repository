@@ -1,5 +1,4 @@
 # This file will store and track changes to the code for AutoMate
-
 #AutoMate, a vehicle booking system developed by Michael Cato. Inspiration drawn from cloned code repository. 
 #Commit 1 below
 print("Welcome to AutoMate! Your car's best booking friend!")
