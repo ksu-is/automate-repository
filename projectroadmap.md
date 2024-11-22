@@ -12,8 +12,8 @@
 - [x] Test usability so far and debug
 - [x] Submit changes in the form of multiple commits
 - ### *Sprint 3*
-- [ ] Continue working on code and determine if project is ambitious enough by completion time.
-- [ ] Brainstorm and add features to existing code if project requires more fleshed out features; oversights.  
-- [ ] Create PPT slide to demonstrate the key features of the project and adhere to guidelines in rubric
+- [x] Continue working on code and determine if project is ambitious enough by completion time.
+- [x] Brainstorm and add features to existing code if project requires more fleshed out features; oversights.  
+- [x] Create PPT slide to demonstrate the key features of the project and adhere to guidelines in rubric
 - [ ] Ensure that code works seamlessly integrate with the link attached to the powerpoint
 - [ ] Review project code and see if ambition for the project scale needs to be expanded
