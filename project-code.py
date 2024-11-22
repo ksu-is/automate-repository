@@ -43,3 +43,10 @@ def add_new(appointments):
     
     print("No appointment to show!")
     
+def deleted_appointment(appointments):
+    vehicle_year = input("Vehicle year?")
+    vehicle_make = input("Vehicle make?")
+    vehicle_model = input("Vehicle model?")
+
+
+    
