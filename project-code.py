@@ -57,6 +57,15 @@ def deleted_appointment(appointments):
             return
 
     print("No appointment to show!")
-
-
+# Commit 8 below
+def main():
+    appointments = []
+    while true: 
+        print("Welcome to AutoMate! Please see menu options below:")
+        print(" Type 1 to book a new appointment.")
+        print(" Type 2 to add a service to an existing appointment.")
+        print(" Type 3 to delete an existing appointment.")
+        print("Type 4 to exit")
+# Commit 9
+    
     
