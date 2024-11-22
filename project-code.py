@@ -42,11 +42,21 @@ def add_new(appointments):
             return
     
     print("No appointment to show!")
-    
+# Commit 6 below    
 def deleted_appointment(appointments):
     vehicle_year = input("Vehicle year?")
     vehicle_make = input("Vehicle make?")
     vehicle_model = input("Vehicle model?")
+# Commit 7 below    
+    for appointment in appointments:
+        if (appointment['year'] == vehicle_year and
+            appointment['make'] == vehicle_make and
+            appoitnment['model'] == vehicle_model:
+            appointments.remove(appointment)
+            print("Appointment deleted!")
+            return
+
+    print("No appointment to show!")
 
 
     
