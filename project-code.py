@@ -1,5 +1,17 @@
 # This file will store and track changes to the code for AutoMate
 #AutoMate, a vehicle booking system developed by Michael Cato. Inspiration drawn from cloned code repository. 
+
+# Commit 10 below
+def automate_logo():
+    logo = "" 
+    XXXXX  X   X  XXXXX  XXXXX  X   X XXXXX XXXXX XXXXX
+    X   X  X   X    X    X   X  XXxXX X   X   X   XX
+    XXXXX  X   X    X    X   X  XX XX XXXXX   X   XXXXX
+    X   X  X   X    X    X   X  X   X X   X   X   XX
+    X   X  XXXXX    X    XXXXX  X   X X   X   X   XXXXX
+    ""
+    print(logo)
+
 #Commit 1 below
 print("Welcome to AutoMate! Your car's best booking friend!")
 def appointment_booking(appointments):
