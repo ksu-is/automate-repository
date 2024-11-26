@@ -11,6 +11,8 @@ def automate_logo():
     X   X  XXXXX    X    XXXXX  X   X X   X   X   XXXXX
     ""
     print(logo)
+if __name__ == "__main__":
+    automate_logo()
 
 #Commit 1 below
 print("Welcome to AutoMate! Your car's best booking friend!")
